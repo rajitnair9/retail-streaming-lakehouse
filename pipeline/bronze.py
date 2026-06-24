@@ -43,7 +43,7 @@ def bronze_orders():
             .option("kafka.security.protocol", "SASL_SSL")
             .option("kafka.sasl.mechanism", "SCRAM-SHA-256")
             .option("kafka.sasl.jaas.config",
-                f'org.apache.kafka.common.security.scram.ScramLoginModule required '
+                f'kafkashaded.org.apache.kafka.common.security.scram.ScramLoginModule required '
                 f'username="{USERNAME}" '
                 f'password="{{{{secrets/redpanda/password}}}}";'
             )
