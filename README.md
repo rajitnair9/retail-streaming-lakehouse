@@ -1,4 +1,4 @@
-# Retail Streaming Lakehouse
+# Retail Streaming Lakehouse(In-Progress)
 
 A real-time retail analytics platform built on Azure Databricks and Redpanda (Kafka-compatible), showcasing modern data engineering capabilities including streaming ingestion, Medallion Architecture, data quality enforcement, Unity Catalog governance, and automated CI/CD deployment.
 
